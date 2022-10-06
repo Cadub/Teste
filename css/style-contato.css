@@ -1,0 +1,94 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(white 50%, darkgray);
+}
+header {
+    background: rgb(34, 30, 30);
+    height: 50px
+}
+#logo_site {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 10%;
+}
+
+nav {
+    position: absolute; 
+}
+nav li {
+    position: relative;
+    display: inline-block;
+    /* cima, direita, baixo, esquerda  ou daria para colocar margin-left: 15px*/
+    margin: 0 0 0 15px;  
+}
+nav a{
+    position: relative;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    /* Tira qualquer decoração no texto */
+    text-decoration: none;
+    top:20px;
+}
+nav a:hover{
+    color: rgb(220, 168, 23)
+}
+#exp_findly{
+    left: 60%;   
+}
+#disciplina{
+    left: 70%;
+
+}
+#perguntar{
+    left:80%;
+}
+#contatar{
+    left: 90%;
+}
+#login_cadastro{
+    left: 180%;
+}
+form {
+    margin: 40px 0;
+    margin-left: 3em;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width:50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    /* Transition: Utilizado deixar algo mais suave, tendo-se um tempo de transição, para que outra ação ocorra
+    nesse há uma transição de 1 segundo na cor do botão quando o usuário coloca o cursor nele */
+    transition: 1s all;
+    /* Cursor: Muda o estilo do cursor, de modo a indicar algo */
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    /* Transform: ao acontecer algo ele irá realizar alguma mudança, podendo ser de tamanho, posição e etc. */
+    /*transform: scale(1.2);*/
+}

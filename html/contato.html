@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Findly - Contato</title>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel=stylesheet href="/css/style-contato.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="caixa"></section>
+            <img
+                id="logo_site"
+                src="/img/logo_temporario-removebg-preview (1).png"
+                alt="Logo_do_site">
+                <nav>
+                    <ul>
+                        <li id="exp_findly">
+                            <a href="/html/index.html">Findly</a>
+                        </li>
+                        <li id="disciplina">
+                            <a href="/html/disciplinas.html">Disciplinas</a>
+                        </li>
+                        <li id="perguntar">
+                            <a href="/html/perguntar.html">Perguntar</a>
+                        </li>
+                        <li id="contatar">
+                            <a href="/html/contato.html">Contate-nos</a>
+                        </li>
+                        <li id="login_cadastro">
+                            <a id="botao-login" href="/html/login.html">Login ou Cadastro</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <form action="">
+                <!-- Required: faz com o preenchimento da label sejá obrigatório -->
+                <!-- Nome -->
+                <label form="nomeCompleto">Nome e sobrenome:</label>
+                <input id="nomeCompleto" type="text" class="input-padrao" required="required">
+
+                <!-- Placeholder: texto temporário o qual aparece para o usuário, explicando o
+                modelo a ser escrito pelo usuário-->
+                <!-- E-mail -->
+                <label form="e-mail">E-mail:</label>
+                <input
+                    id="email"
+                    type="email"
+                    class="input-padrao"
+                    required="required"
+                    placeholder="seuemail@dominio.com">    
+                <!-- Telefone -->
+                <label for="telefone">Telefone:</label>
+                <input
+                    id="telefone"
+                    type="tel"
+                    class="input-padrao"
+                    required="required"
+                    placeholder="(XX) XXXXX-XXXX">
+                <!-- Caixa de mensagem -->
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    cols="60"
+                    rows="10"
+                    id="mensagem"
+                    class="input-padrao"
+                    required="required"></textarea>
+                <!-- Fieldset: referente a configuração de um ou mais campos referentes a
+                assuntos específicos Ex: dados de endereço, cartão-->
+                <fieldset>
+                    <!-- A utilização do name, fazem com que atributos façam parte do mesmo grupo.
+                    Nesse caso, como os radio-button são do mesmo grupo, apenas um será selecionavel
+                    -->
+                    <!-- Legend: título utilizado dentro de um fieldset-->
+                    <legend>Como prefere o nosso contato?</legend>
+                    <!-- Radio-button email -->
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                        Email</label>
+
+                    <!-- Radio-button telefone -->
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <!-- Checked: faz com que um dos valores já estaja marcado, indicando ao usuário
+                    quee deve-se clicar no círculo para escolher -->
+                    <!-- Radio-button whatsapp -->
+                    <label for="radio-whatsapp">
+                        <input
+                            type="radio"
+                            name="contato"
+                            value="whatsapp"
+                            id="radio-whatsapp"
+                            checked="checked">
+                        WhatsApp
+                    </label>
+                </fieldset>
+                <!-- Checked: faz com que um dos valores já estaja marcado, indicando ao usuário
+                quee deve-se clicar no círculo para escolher -->
+                <label class="checkbox"><input type="checkbox" checked="checked">Gostaria de receber nossas novidas por e-mail?</label>
+                <input type="submit" value="Enviar Mensagem" class="enviar">
+            </form>
+        </main>
+    </body>
+</html>

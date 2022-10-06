@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Findly</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel=stylesheet href="/css/style-disciplinas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <section class="caixa"></section>
+            <img
+                id="logo_site"
+                src="/img/logo_temporario-removebg-preview (1).png"
+                alt="Logo_do_site">
+                <nav>
+                    <ul>
+                        <li id="exp_findly">
+                            <a href="/html/index.html">Findly</a>
+                        </li>
+                        <li id="disciplina">
+                            <a href="/html/disciplinas.html">Disciplinas</a>
+                        </li>
+                        <li id="perguntar">
+                            <a href="/html/perguntar.html">Perguntar</a>
+                        </li>
+                        <li id="contatar">
+                            <a href="/html/contato.html">Contate-nos</a>
+                        </li>
+                        <li id="login_cadastro">
+                            <a id="botao-login" href="/html/login.html">Login ou Cadastro</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <fieldset>
+                <legend id="escolha_disciplinas">Qual matéria você deseja escolher?</legend>
+                <!-- Selecionador de opções -->
+                <select id="disciplinas">
+                    <!-- Option: itens os quais serão selecionáveis pelo usuário -->
+                    <option>Lógica e Matemática Discreta</option>
+                    <option>Estatística</option>
+                </select>
+            </fieldset>
+            <h1 id="pergunta_materia_x">Pergunta da "Materia"</h1>
+            <fieldset>
+                <!-- Selecionador de opções -->
+                <select id="tipo_resposta">
+                    <!-- Option: itens os quais serão selecionáveis pelo usuário -->
+                    <option>Sem resposta</option>
+                    <option>Com resposta</option>
+                </select>
+            </fieldset>
+            <section class="perguntas">
+                <img id="foto_perfil" src="/img/foto perfil.png">
+                <h2 id="nome_perfil">Raynner</h2>
+                <h2 id="pergunta_escrita">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ipsum odio consequatur reiciendis quas laborum aliquam molestiae consequuntur voluptatem velit, illum, similique, 
+                    reprehenderit blanditiis fuga nemo molestias. Voluptatum illum quibusdam necessitatibus?</h2>
+                <img id="seta_cima" src="/img/seta_cima.png">
+            </section>
+        </main>
+        <script src="disciplinas.js"></script>
+</body>
+</html>

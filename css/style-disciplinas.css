@@ -1,0 +1,110 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+header {
+    background: rgb(34, 30, 30);
+    height: 50px
+}
+#logo_site {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 10%;
+}
+
+nav {
+    position: absolute; 
+}
+nav li {
+    position: relative;
+    display: inline-block;
+    /* cima, direita, baixo, esquerda  ou daria para colocar margin-left: 15px*/
+    margin: 0 0 0 15px;  
+}
+nav a{
+    position: relative;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    /* Tira qualquer decoração no texto */
+    text-decoration: none;
+    top:20px;
+}
+nav a:hover{
+    color: rgb(220, 168, 23)
+}
+#exp_findly{
+    left: 60%;   
+}
+#disciplina{
+    left: 70%;
+
+}
+#perguntar{
+    left:80%;
+}
+#contatar{
+    left: 90%;
+}
+#login_cadastro{
+    left: 180%;
+}
+main{
+    
+    
+}
+#escolha_disciplinas{
+    position: relative;
+    font-size: 36px;
+    top: 90px;
+    left: 20%;
+}
+#disciplinas{
+    position: relative;
+    top: 58px;
+    left: 53%;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#pergunta_materia_x{
+    position: absolute;
+    font-size: 32px;
+    top: 230px;
+    left: 35%;
+}
+#tipo_resposta{
+    position: relative;
+    top: 110px;
+    left: 56%;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#foto_perfil{
+    position: relative;
+    top: 200px;
+    left: 20%;
+    width: 3%;
+}
+#nome_perfil{
+    position: relative;
+    top: 170px;
+    left: 25%;
+    font-size: 24px;
+}
+#pergunta_escrita{
+    position: relative;
+    top: 200px;
+    left: 25%;
+    font-size: 24px;
+    margin-right: 40%;
+    background: rgb(174, 170, 158);
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 10px;
+}
+#seta_cima{
+    position: relative;
+    top: 200px;
+    left: 25%;
+}

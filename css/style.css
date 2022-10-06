@@ -1,0 +1,152 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    
+}
+header {
+    background: rgb(34, 30, 30);
+    height: 50px
+}
+#logo_site {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 10%;
+}
+
+nav {
+    position: absolute; 
+}
+nav li {
+    position: relative;
+    display: inline-block;
+    /* cima, direita, baixo, esquerda  ou daria para colocar margin-left: 15px*/
+    margin: 0 0 0 15px;  
+}
+nav a{
+    position: relative;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    /* Tira qualquer decoração no texto */
+    text-decoration: none;
+    top:20px;
+}
+nav a:hover{
+    color: rgb(220, 168, 23)
+}
+#exp_findly{
+    left: 60%;   
+}
+#disciplina{
+    left: 70%;
+
+}
+#perguntar{
+    left:80%;
+}
+#contatar{
+    left: 90%;
+}
+#login_cadastro{
+    left: 180%;
+}
+form{
+    background-color: #000000;
+}
+#titulo{
+    position: absolute;
+    font-size: 40px;
+    left: 38%;
+    top: 20%;
+    
+}
+#titulo2{
+    position: absolute;
+    font-size: 36px;
+    left: 38%;
+    top: 27%;
+}
+#sugestao{
+    position: absolute;
+    font-size: 26px;
+    left: 43%;
+    top: 37%;
+    color: rgb(55, 58, 63);
+}
+#escrever_pergunta{
+    position:absolute;
+    top: 45%;
+    left: 34%;
+    padding: 10px 25px;
+    width: 12%;
+    border-radius: 5px;
+}
+#mandar_pergunta{
+    position:absolute;
+    top: 45%;
+    left: 51%;
+    padding: 10px 25px;
+    width: 12%;
+    border-radius: 5px;
+    background: rgb(58, 109, 126);
+    color: white;
+    font-weight: bold;
+}
+#degrade{
+    
+    
+}
+#explicacao{
+    height: 700px;
+    background: linear-gradient(white 50%, darkgray);
+}
+.titulo-explicacao {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    font-size: 34px;
+    
+    /* Clear: limpa a ação do float */
+    clear: left;
+    font-weight: bold;
+}
+.p_explicacao strong{
+    font-weight: bold;
+}
+.questionamento{
+    position: absolute;
+    width: 35%;
+    top: 65%;
+    left: 3%;
+    height: 250px;
+    float: left;
+    
+}
+.p_explicacao{
+    position:relative;
+    display: block;
+    left: 20%;
+    top: 470px;
+    font-size: 20px;
+    margin-right: 350px;
+    margin-left: 300px;
+}
+#missao{
+    position:relative;
+    display: block;
+    left: 20%;
+    top: 500px;
+    font-size: 20px;
+    margin-right: 350px;
+    margin-left: 300px;
+}
+.garantia{
+    position:relative;
+    display: block;
+    left: 20%;
+    top: 530px;
+    font-size: 20px;
+    margin-right: 350px;
+    margin-left: 300px;
+}

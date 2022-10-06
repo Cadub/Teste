@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Findly</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel=stylesheet href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+            rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="caixa"></section>
+        <img
+            id="logo_site"
+            src="/img/logo_temporario-removebg-preview (1).png"
+            alt="Logo_do_site">
+            <nav>
+                <ul>
+                    <li id="exp_findly">
+                        <a href="/html/index.html">Findly</a>
+                    </li>
+                    <li id="disciplina">
+                        <a href="/html/disciplinas.html">Disciplinas</a>
+                    </li>
+                    <li id="perguntar">
+                        <a href="/html/perguntar.html">Perguntar</a>
+                    </li>
+                    <li id="contatar">
+                        <a href="/html/contato.html">Contate-nos</a>
+                    </li>
+                    <li id="login_cadastro">
+                        <a id="botao-login" href="/html/login.html">Login ou Cadastro</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="pergunta">
+            <form>
+                <h2 id="titulo">Questões  e  respostas</h1>
+                <h2 id="titulo2">para todas as matérias</h1>
+                <h2 id="sugestao">Faça sua pergunta</h1>
+                <p>
+                    <input type="text" id="escrever_pergunta" name="fazer_pergunta" required="required">
+                </p>
+                <input type="submit" value="Realizar pergunta" id="mandar_pergunta">
+            </form>
+        </section> 
+        <div id="degrade"></div>
+        <section id="explicacao">
+            <h2 class="titulo-explicacao">Sobre o Findly</h2>
+
+            <img
+                    class="questionamento"
+                    src="/img/imagem_tela.png"
+                    alt="Usuário com duvida">
+
+            <p class="p_explicacao">Criado por um grupo de estudantes do Instituo Mauá de Tecnologia
+                <strong>o Findly</strong>
+                se apresenta como uma opção para os estudantes, cuja faculdade é Mauá, de poder realizar
+                perguntas referentes a diferentes matérias de cursos específico. A partir disso, ao lançar
+                a pergunta outros estudantes podem responde-las, de modo a ajudar no melhor entendimento de
+                um assunto </p>
+            <!-- em: deixa o texto em italico -->
+            <p id="missao">
+                <em>Nossa missão é:
+                    <strong>"Proporcionar uma melhor interação entre os estudantes e entendimento das matérias".</strong>
+                </em>
+            </p>
+            <!-- |_> Forma de indentificação de um trecho específico -->
+            <p class="garantia">Oferecemos uma sistema com uma interface simplificada, para que o usuário
+                sinta-se confortável ao utilizar a aplicação Findly, além de apresentar uma mecanica simples
+                para realizar perguntas e responde-las
+            </p>
+        </section>   
+    </main>
+    <script src="server2.js"></script>
+</body>
+</html>

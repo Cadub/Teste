@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Findly</title>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style-login.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <section class="caixa"></section>
+            <img
+                id="logo_site"
+                src="/img/logo_temporario-removebg-preview (1).png"
+                alt="Logo_do_site">
+                <nav>
+                    <ul>
+                        <li id="exp_findly">
+                            <a href="/html/index.html">Findly</a>
+                        </li>
+                        <li id="disciplina">
+                            <a href="/html/disciplinas.html">Disciplinas</a>
+                        </li>
+                        <li id="perguntar">
+                            <a href="/html/perguntar.html">Perguntar</a>
+                        </li>
+                        <li id="contatar">
+                            <a href="/html/contato.html">Contate-nos</a>
+                        </li>
+                        <li id="login_cadastro">
+                            <a id="botao-login" href="/html/login.html">Login ou Cadastro</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <div class = "vertical"></div>
+            <form id="Cadastro">
+                <legend id="titulo-cadastro">Cadastro</legend>
+                <p>
+                    <label for="nome_completo">Nome Completo</label>
+                    <input type="text" class="caixa-texto" name="nomeCompleto" required="required">
+                </p>    
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" class="caixa-texto" name="login" required="required" placeholder="seuemail@dominio.com">
+                </p>
+                <p>
+                    <label for="senha">Senha</label>
+                    <input type="password" class="caixa-texto" name="senha" required="required" placeholder="12345">
+                </p>
+                <p>
+                    <label for="confirmar_senha">Confirmar senha</label>
+                    <input type="password" class="caixa-texto" name="confirmar_senha" required="required" placeholder="12345">
+                </p>
+                <input type="submit" value="Confirmar Cadastro" class="cadastrar">
+            </form>
+            <form id="Login">
+                <legend id="titulo-login">Login</legend>
+                <p>
+                    <label for="email" id="email-login">E-mail</label>
+                    <input type="email" id="caixa-texto-login-email" name="email" required="required" placeholder="seuemail@dominio.com">                   
+                </p>
+                <p>
+                    <label for="password" id="password-login">Senha</label>
+                    <input type="password" id="caixa-texto-login-senha" name="password" required="required" placeholder="12345">
+                </p>
+                <input type="submit" value="Confirmar Login" class="logar">
+            </form>
+        </main>
+    </body>
+</html>
